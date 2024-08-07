@@ -1,0 +1,90 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.5.6",
+  "deps": {
+    "nx": "^19.5.6",
+    "lerna": "^8.1.8"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "14347376325746117243"
+      },
+      {
+        "file": ".nx/workspace-data/d/server-process.json",
+        "hash": "11485401081507612758"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "414265049992887245"
+      },
+      {
+        "file": "nx.json",
+        "hash": "5350950090855821657"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "16722851342459420272"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "10010256335013790573"
+      },
+      {
+        "file": "package.json",
+        "hash": "16771945967774778667"
+      }
+    ],
+    "projectFileMap": {
+      "a": [
+        {
+          "file": "packages/a/README.md",
+          "hash": "17002001921416591732"
+        },
+        {
+          "file": "packages/a/__tests__/a.test.js",
+          "hash": "6375740343908548760"
+        },
+        {
+          "file": "packages/a/lib/a.js",
+          "hash": "1312032867556409687"
+        },
+        {
+          "file": "packages/a/main.js",
+          "hash": "640852461389174592"
+        },
+        {
+          "file": "packages/a/package.json",
+          "hash": "13293474528830911448",
+          "deps": [
+            "b"
+          ]
+        }
+      ],
+      "b": [
+        {
+          "file": "packages/b/README.md",
+          "hash": "7896783350214521062"
+        },
+        {
+          "file": "packages/b/__tests__/b.test.js",
+          "hash": "10880973687683149757"
+        },
+        {
+          "file": "packages/b/lib/b.js",
+          "hash": "8502011105474068031"
+        },
+        {
+          "file": "packages/b/package.json",
+          "hash": "17930765123598211608",
+          "deps": [
+            "npm:axios"
+          ]
+        }
+      ]
+    }
+  }
+}
